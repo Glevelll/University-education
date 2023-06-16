@@ -47,3 +47,5 @@ This project demonstrates testing the calculator on JUnit5. A primitive calculat
 
 
 # [emailProg](https://github.com/Glevelll/University-education/tree/main/emailProg)
+
+Here you can find a code that sends the following data to the mail you specify: Title, weather as a string, date, picture and code file
