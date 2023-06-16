@@ -1,6 +1,6 @@
 # University-education
 
-# Machines
+# [Machines](https://github.com/Glevelll/University-education/tree/main/Machines)
 
 ## [Non-deterministic State Machine](https://github.com/Glevelll/University-education/tree/main/Machines/Machine)
 
