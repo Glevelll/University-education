@@ -22,6 +22,8 @@ In this case, a random regular expression is generated from the characters speci
 
 
 
+
+
 # [Spring Core](https://github.com/Glevelll/University-education/tree/main/SprngAntns)
 Spring Core - это фреймворк для разработки на Java, который дает возможность разработки приложения как набора слабосвязанных компонентов. Чем меньше компоненты приложения знают друг о друге, тем проще разрабатывать новый и поддерживать существующий функционал приложения. Spring состоит из множества аннотаций, которые облегчают работу с Java.
 
