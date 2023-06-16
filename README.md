@@ -25,15 +25,15 @@ In this case, a random regular expression is generated from the characters speci
 
 
 # [Spring Core](https://github.com/Glevelll/University-education/tree/main/SprngAntns)
-Spring Core - это фреймворк для разработки на Java, который дает возможность разработки приложения как набора слабосвязанных компонентов. Чем меньше компоненты приложения знают друг о друге, тем проще разрабатывать новый и поддерживать существующий функционал приложения. Spring состоит из множества аннотаций, которые облегчают работу с Java.
+Spring Core is a Java development framework that allows you to develop an application as a set of loosely coupled components. The less application components know about each other, the easier it is to develop new and maintain existing application functionality. Spring is made up of many annotations that make it easy to work with Java.
 
-В файле sprngAnts можно найти реализацию Spring Core. В одной из папок, под анологичным названием реализация Spring аннотационно применяется к классам, которые формируют систему, содержащую различные жанры кино, а также имеется 3 варианта реализации проигрывания кино: FilmPlayerWithConstructor, FilmPlayerWithSetter и, самый минималистичный, FilmPlayer.
+In the sprngAnts file, you can find the Spring Core implementation. In one of the folders, under the similar name, the implementation of Spring is annotated to the classes that form a system containing various movie genres, and there are also 3 options for implementing movie playback: FilmPlayerWithConstructor, FilmPlayerWithSetter and, the most minimalistic, FilmPlayer.
 
-В том же файле можно найти папку Facade, которая содержит в себе кинотеатр, строящийся на паттерне Фасад (см. https://github.com/Glevelll/AdapterAndFacade), включающий в себя Spring Core и соответствующие аннотации. В этом же файле есть папка Adapter, где также реализован Spring и плюс к этому применён @Bean. @Bean отличается тем, что он прелставляет собой singleton, а созданием экземпляров и установкой в бины зависимостей управляет контейнер фреймворка Spring.
+In the same file, you can find the Facade folder, which contains a movie theater built on the Facade pattern (look at https://github.com/Glevelll/AdapterAndFacade), which includes Spring Core and related annotations. In the same file there is an Adapter folder, where Spring is also implemented and @Bean is applied to this. @Bean is different in that it is a singleton, and the Spring framework container manages instantiation and installation of dependency beans.
 
-Также, как дополнительный материал на рассмотрение, был взят Google Guice.
+Also, as additional material for consideration, Google Guice was taken.
 
-Guice устраняет потребность в фабриках и использовании new в коде Java. В некоторых случаях приходится писать фабрики, но код не будет напрямую зависеть от них. Guice позволяет легче изменять, тестировать и повторно использовать код в других контекстах.
+Guice eliminates the need for factories and the use of new in Java code. In some cases, you have to write factories, but the code will not directly depend on them. Guice makes it easier to modify, test, and reuse code in other contexts.
 
 
 
@@ -42,3 +42,8 @@ Guice устраняет потребность в фабриках и испо�
 # [Testing](https://github.com/Glevelll/University-education/tree/main/Testing/Calculator)
 
 This project demonstrates testing the calculator on JUnit5. A primitive calculator can add, subtract, multiply and divide. JUnit tests help to check the correctness of calculations.
+
+
+
+
+# [emailProg](https://github.com/Glevelll/University-education/tree/main/emailProg)
