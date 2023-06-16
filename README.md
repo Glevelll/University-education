@@ -1,5 +1,13 @@
 # University-education
 
+# [FileServer](https://github.com/Glevelll/University-education/tree/main/FileServer)
+
+This code is implemented to send, receive and delete files using the server. This code is implemented using sockets. The detailed task can be found here https://hyperskill.org/projects/52/stages/286/implement
+
+# [Lombok](https://github.com/Glevelll/University-education/tree/main/Lombok)
+
+All the basic annotations that lombok offers are applied here.
+
 # [Machines](https://github.com/Glevelll/University-education/tree/main/Machines)
 
 ## [Non-deterministic State Machine](https://github.com/Glevelll/University-education/tree/main/Machines/Machine)
