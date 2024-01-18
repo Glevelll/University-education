@@ -57,3 +57,38 @@ This project demonstrates testing the calculator on JUnit5. A primitive calculat
 # [emailProg](https://github.com/Glevelll/University-education/tree/main/emailProg)
 
 Here you can find a code that sends the following data to the mail you specify: Title, weather as a string, date, picture and code file
+
+
+# [Warships](https://github.com/Glevelll/University-education/tree/main/Warships)
+
+Console game "Battleship", written in two languages: Java and Kotlin. The implementation on Kotlin provides two options for the game: with autocompletion and manual filling of the field
+
+
+# [Genealogical Tree](https://github.com/Glevelll/University-education/tree/main/Genealogical-tree)
+
+This repository demonstrates working with JavaFX to create a nice user interface for a small program. In my case, this is a program with the theme of the Family Tree. Each user form was made in a specific scene. For each scene, a code is written that allows the user to interact with the program without any problems. The data entered in this program is stored in a file and displayed in the program, with the possibility of changing, adding or deleting them
+
+
+# [RentBot](https://github.com/Glevelll/University-education/tree/main/Rentbot)
+
+Телеграм-бот для аренды помещений. Все основные действующие лица и соответствующие им варианты использования представлены ниже:
+
+image
+
+В коде все эти функции успешно реализованы.
+
+Проект имеет 2 класса: Databases - класс для соединения с базой данных SQLite и, как следствие, для возможности записывать туда одни данные и получать из неё другие данные. RentBot - основной класс для реализации всех основных функций бота.
+
+Команды для телеграм-бота реализованы в меню телеграм-бота и удобно вызываются при переписке с ботом.
+
+Схема базы данных имеет следующий вид:
+
+image
+
+*В данной схеме, в таблице Room, не представлено поле photo, для хранения фото помещения, которое также реализовано в боте.
+
+Таблица Room нужна для хранения данных о помещениях. Название помещения должно быть уникальным. При заполнении помещения от лица админа с помощью бота, вместе с основной информацией фото добавляется в формате URL-ссылки в виде png, jpg и gif, не превышающее 2 мб.
+
+Таблица User нужна для хранения данных о пользователях. Логин должен быть уникальным. Проверка на администратора происходит с помощью поля admin: если 1 - то это админ, в остальных случаях - обычный пользователь. Админ добавляется напрямую в бд, так как при регистрации нового пользователя, дефолтным значением в поле admin 0, так как регистрация не подразумевает, что каждый желающий может стать админом.
+
+Таблица Book нужна для хранения данных о заявках на аренду. Здесь хранятся заявки на аренду, которые создаются или удаляются пользователем, а у админа есть возможность ответить на все заявки, статус которых "Не просмотрено"
