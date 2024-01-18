@@ -59,12 +59,12 @@ This project demonstrates testing the calculator on JUnit5. A primitive calculat
 Here you can find a code that sends the following data to the mail you specify: Title, weather as a string, date, picture and code file
 
 
-# [Warships](https://github.com/Glevelll/University-education/tree/main/Warships)
+# [Warships](https://github.com/Glevelll/University-education/tree/main/WarShips)
 
 Console game "Battleship", written in two languages: Java and Kotlin. The implementation on Kotlin provides two options for the game: with autocompletion and manual filling of the field
 
 
-# [Genealogical Tree](https://github.com/Glevelll/University-education/tree/main/Genealogical-tree)
+# [Genealogical Tree](https://github.com/Glevelll/University-education/tree/main/GenealogicalTree)
 
 This repository demonstrates working with JavaFX to create a nice user interface for a small program. In my case, this is a program with the theme of the Family Tree. Each user form was made in a specific scene. For each scene, a code is written that allows the user to interact with the program without any problems. The data entered in this program is stored in a file and displayed in the program, with the possibility of changing, adding or deleting them
 
