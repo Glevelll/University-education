@@ -69,7 +69,7 @@ Console game "Battleship", written in two languages: Java and Kotlin. The implem
 This repository demonstrates working with JavaFX to create a nice user interface for a small program. In my case, this is a program with the theme of the Family Tree. Each user form was made in a specific scene. For each scene, a code is written that allows the user to interact with the program without any problems. The data entered in this program is stored in a file and displayed in the program, with the possibility of changing, adding or deleting them
 
 
-# [RentBot](https://github.com/Glevelll/University-education/tree/main/Rentbot)
+# [RentBot](https://github.com/Glevelll/University-education/tree/main/RentBot)
 
 Телеграм-бот для аренды помещений. Все основные действующие лица и соответствующие им варианты использования представлены ниже:
 
