@@ -2,71 +2,57 @@
 
 # [FileServer](https://github.com/Glevelll/University-education/tree/main/FileServer)
 
-This code is implemented to send, receive and delete files using the server. This code is implemented using sockets. The detailed task can be found here https://hyperskill.org/projects/52/stages/286/implement
+Этот код реализован для отправки, получения и удаления файлов с использованием сервера. Этот код реализован с использованием сокетов. Подробную задачу можно найти здесь https://hyperskill.org/projects/52/stages/286/implement
 
 # [Lombok](https://github.com/Glevelll/University-education/tree/main/Lombok)
 
-All the basic annotations that lombok offers are applied here.
+Все основные аннотации, которые предлагает lombok, применяются здесь.
 
 # [Machines](https://github.com/Glevelll/University-education/tree/main/Machines)
 
-## [Non-deterministic State Machine](https://github.com/Glevelll/University-education/tree/main/Machines/Machine)
+## [Недетерминированный конечный автомат](https://github.com/Glevelll/University-education/tree/main/Machines/Machine)
 
-This section discusses the operation of a specific non-deterministic state machine.
+В этом разделе обсуждается работа определенного недетерминированного конечного автомата.
 ![image](https://user-images.githubusercontent.com/113721736/215865928-63f2a50b-5661-44fb-a447-85c467c338de.png)
-As we can see, it has 2 input symbols, 5 output symbols and 4 states. Since any transition of such an automaton is uniquely determined by the current state and the input symbol, where reading the input symbol is required for each state change, then passing through each state we will, if necessary, replace the input symbols with the output ones, and we will transition through the states according to the conditions dictated by our machine
+Как мы видим, у него 2 входных символа, 5 выходных символов и 4 состояния. Поскольку любой переход такого автомата однозначно определяется текущим состоянием и входным символом, где для каждого изменения состояния требуется чтение входного символа, то, проходя через каждое состояние, мы, при необходимости, заменим входные символы выходными и будем переходить по состояниям в соответствии с условиями, диктуемыми нашей машиной
 
+## [Машина Тьюринга](https://github.com/Glevelll/University-education/tree/main/Machines/Turing)
 
-## [Turing Machine](https://github.com/Glevelll/University-education/tree/main/Machines/Turing)
-
-This project demonstrates the operation of a Turing machine that looks like this:
+Этот проект демонстрирует работу машины Тьюринга, которая выглядит следующим образом:
 ![image](https://user-images.githubusercontent.com/113721736/215868756-600dc010-c97d-4eb2-9c67-c1f73518ae68.png)
-There is an alphabet of 5 characters, 3 states and a table itself showing the operation of the machine in the direction of the left, right, or stay in place.
-A strategy similar to a non-deterministic finite automaton: replacing characters one by one, followed by a transition that the machine dictates.
+Имеется алфавит из 5 символов, 3 состояния и сама таблица, показывающая работу машины в направлении влево, вправо или оставаться на месте.
+Стратегия, похожая на недетерминированный конечный автомат: замена символов по одному, за которой следует переход, который диктует машина.
 
-## [Regular Expression](https://github.com/Glevelll/University-education/tree/main/Machines/Regular)
+## [Регулярное выражение](https://github.com/Glevelll/University-education/tree/main/Machines/Regular)
 
-In this case, a random regular expression is generated from the characters specified in the code, which in turn is written to the file. To create a valid regular expression, the program considers many cases that must be met before the program creates the final regular expression. This is where the obvious problem comes in: we are sacrificing program execution time. But since the purpose of this section is to illustrate that the programmer is familiar with the concept of a regular expression, I ask the reader to close their eyes to this little nuisance :)
-
-
-
-
+В этом случае из символов, указанных в коде, генерируется случайное регулярное выражение, которое, в свою очередь, записывается в файл. Чтобы создать допустимое регулярное выражение, программа рассматривает множество случаев, которые должны быть выполнены, прежде чем программа создаст окончательное регулярное выражение. Вот тут-то и возникает очевидная проблема: мы жертвуем временем выполнения программы. Но поскольку цель этого раздела — проиллюстрировать, что программист знаком с концепцией регулярного выражения, я прошу читателя закрыть глаза на эту маленькую неприятность :)
 
 # [Spring Core](https://github.com/Glevelll/University-education/tree/main/SprngAntns)
-Spring Core is a Java development framework that allows you to develop an application as a set of loosely coupled components. The less application components know about each other, the easier it is to develop new and maintain existing application functionality. Spring is made up of many annotations that make it easy to work with Java.
+Spring Core — это фреймворк разработки Java, который позволяет разрабатывать приложение как набор слабосвязанных компонентов. Чем меньше компоненты приложения знают друг о друге, тем проще разрабатывать новые и поддерживать существующую функциональность приложения. Spring состоит из множества аннотаций, которые упрощают работу с Java.
 
-In the sprngAnts file, you can find the Spring Core implementation. In one of the folders, under the similar name, the implementation of Spring is annotated to the classes that form a system containing various movie genres, and there are also 3 options for implementing movie playback: FilmPlayerWithConstructor, FilmPlayerWithSetter and, the most minimalistic, FilmPlayer.
+В файле sprngAnts вы можете найти реализацию Spring Core. В одной из папок под похожим названием реализация Spring аннотирована к классам, которые образуют систему, содержащую различные жанры фильмов, а также есть 3 варианта реализации воспроизведения фильмов: FilmPlayerWithConstructor, FilmPlayerWithSetter и, самый минималистичный, FilmPlayer.
 
-In the same file, you can find the Facade folder, which contains a movie theater built on the Facade pattern (look at https://github.com/Glevelll/AdapterAndFacade), which includes Spring Core and related annotations. In the same file there is an Adapter folder, where Spring is also implemented and @Bean is applied to this. @Bean is different in that it is a singleton, and the Spring framework container manages instantiation and installation of dependency beans.
+В этом же файле вы можете найти папку Facade, которая содержит кинотеатр, построенный на шаблоне Facade (см. https://github.com/Glevelll/AdapterAndFacade), который включает Spring Core и связанные аннотации. В этом же файле есть папка Adapter, где также реализован Spring и к нему применен @Bean. @Bean отличается тем, что является синглтоном, а контейнер фреймворка Spring управляет созданием и установкой зависимостей bean-компонентов.
 
-Also, as additional material for consideration, Google Guice was taken.
+Также в качестве дополнительного материала для рассмотрения был взят Google Guice.
 
-Guice eliminates the need for factories and the use of new in Java code. In some cases, you have to write factories, but the code will not directly depend on them. Guice makes it easier to modify, test, and reuse code in other contexts.
+Guice устраняет необходимость в фабриках и использовании new в коде Java. В некоторых случаях вам придется писать фабрики, но код не будет напрямую зависеть от них. Guice упрощает изменение, тестирование и повторное использование кода в других контекстах.
 
+# [Тестирование](https://github.com/Glevelll/University-education/tree/main/Testing/Calculator)
 
-
-
-
-# [Testing](https://github.com/Glevelll/University-education/tree/main/Testing/Calculator)
-
-This project demonstrates testing the calculator on JUnit5. A primitive calculator can add, subtract, multiply and divide. JUnit tests help to check the correctness of calculations.
-
-
-
+Этот проект демонстрирует тестирование калькулятора на JUnit5. Примитивный калькулятор умеет складывать, вычитать, умножать и делить. Тесты JUnit помогают проверить правильность вычислений.
 
 # [emailProg](https://github.com/Glevelll/University-education/tree/main/emailProg)
 
-Here you can find a code that sends the following data to the mail you specify: Title, weather as a string, date, picture and code file
-
+Здесь вы можете найти код, который отправляет на указанную вами почту следующие данные: Название, погода в виде строки, дата, картинка и файл кода
 
 # [Warships](https://github.com/Glevelll/University-education/tree/main/WarShips)
 
-Console game "Battleship", written in two languages: Java and Kotlin. The implementation on Kotlin provides two options for the game: with autocompletion and manual filling of the field
+Консольная игра «Морской бой», написанная на двух языках: Java и Kotlin. Реализация на Kotlin предоставляет два варианта игры: с автодополнением и ручным заполнением поля
 
+# [Генеалогическое дерево](https://github.com/Glevelll/University-education/tree/main/GenealogicalTree)
 
-# [Genealogical Tree](https://github.com/Glevelll/University-education/tree/main/GenealogicalTree)
-
-This repository demonstrates working with JavaFX to create a nice user interface for a small program. In my case, this is a program with the theme of the Family Tree. Each user form was made in a specific scene. For each scene, a code is written that allows the user to interact with the program without any problems. The data entered in this program is stored in a file and displayed in the program, with the possibility of changing, adding or deleting them
+В этом репозитории демонстрируется работа с JavaFX для создания приятного пользовательского интерфейса для небольшого
 
 
 # [RentBot](https://github.com/Glevelll/University-education/tree/main/RentBot)
